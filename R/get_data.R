@@ -1,4 +1,4 @@
-get_scores_tidy <- function(path){
+get_scores_raw <- function(path){
   
   scores_files <- list.files(path = path)
   
@@ -16,13 +16,7 @@ get_scores_tidy <- function(path){
       
       scores <- readxl::read_xls(path = scores_file, sheet = sheet, skip = 5) |>
         dplyr::select(tidyselect::all_of(c(val_cols, suit_cols))) |> 
-        tidyr::pivot_longer(cols = tidyselect::everything(), 
-                            names_to = c("factor", "metric"), 
-                            names_sep = " ",
-                            values_to = "value") |> 
-        dplyr::filter(!is.na(value)) |>
-        # tidyr::pivot_wider(names_from = "metric", value_from = "value") |>
-        dplyr::mutate(species = sheet, .before = factor)
+        dplyr::mutate(species = sheet)
       
       scores_df <- rbind(scores_df, scores)
       
@@ -36,4 +30,66 @@ get_scores_tidy <- function(path){
 
 } # Close function
 
-foo <- get_scores_tidy(path = esc_v1_files)
+
+tidy_scores_raw <- function(.raw_scores){
+  
+  at <- .raw_scores |> 
+    dplyr::select("AT val", "AT suit", "species") |> 
+    dplyr::rename("value" = "AT val",
+                  "score" = "AT suit") |> 
+    dplyr::mutate(factor = "at", .before = value) |> 
+    dplyr::filter(!is.na(`value`))
+  
+  ct <- .raw_scores |> 
+    dplyr::select("Con val", "Con suit", "species") |> 
+    dplyr::rename("value" = "Con val",
+                  "score" = "Con suit") |> 
+    dplyr::mutate(factor = "ct", .before = value) |> 
+    dplyr::filter(!is.na(`value`))
+  
+  md <- .raw_scores |> 
+    dplyr::select("MD val", "MD suit", "species") |> 
+    dplyr::rename("value" = "MD val",
+                  "score" = "MD suit") |> 
+    dplyr::mutate(factor = "md", .before = value) |> 
+    dplyr::filter(!is.na(`value`))
+  
+  dams <- .raw_scores |> 
+    dplyr::select("Dams val", "Dams suit", "species") |> 
+    dplyr::rename("value" = "Dams val",
+                  "score" = "Dams suit") |> 
+    dplyr::mutate(factor = "dams", .before = value) |> 
+    dplyr::filter(!is.na(`value`))
+  
+  smr <- .raw_scores |> 
+    dplyr::select("SMR val", "SMR suit", "species") |> 
+    dplyr::rename("value" = "SMR val",
+                  "score" = "SMR suit") |> 
+    dplyr::mutate(factor = "smr", .before = value) |> 
+    dplyr::filter(!is.na(`value`))
+  
+  snr <- .raw_scores |> 
+    dplyr::select("SNR val", "SNR suit", "species") |> 
+    dplyr::rename("value" = "SNR val",
+                  "score" = "SNR suit") |> 
+    dplyr::mutate(factor = "snr", .before = value) |> 
+    dplyr::filter(!is.na(`value`))
+  
+  
+  scores_tidy <- rbind(at,ct,md,dams,smr,snr) |> 
+    dplyr::relocate(species, .before = factor)
+  
+  return(scores_tidy)
+  
+}
+
+get_tidy_scores <- function(path){
+  
+  scores_tidy <- get_scores_raw(path = path) |> 
+    tidy_scores_raw()
+  
+  return(scores_tidy)
+  
+}
+
+foo <- get_tidy_scores(path = esc_v1_files)

@@ -13,10 +13,10 @@ options(tidyverse.quiet = TRUE)
 # Create targets
 list(
 
-  # A tidy data frame containing version one of the ESC-DSS suitability factor scores
+  # A tidy data frame containing version one of the raw ESC-DSS suitability factor scores
   tar_target(
-    raw_scores_v1,
-    get_scores_tidy(path = esc_v1_files)
+    tidy_scores_v1,
+    get_tidy_scores(path = esc_v1_files)
   )
   
 )

@@ -1,5 +1,13 @@
 name|type|data|command|depend|seed|path|time|size|bytes|format|iteration|parent|children|seconds|warnings|error
-esc_v1_files|object|60c51f0d5568de8d||||||||||||||
 val_and_score_cols|object|2ad306b9bd9c8235||||||||||||||
 get_scores_tidy|function|9cc499a942607a9a||||||||||||||
-raw_scores_v1|stem|d6d5f811110ee50e|095170364a17d5f6|7c564cd980e2f4d6|822406772||t18886.3161253397s|eeab8b98676e99df|9115|rds|vector|||2.05||
+raw_scores_v1|stem|3b4a5e6135e0adbf|ad806f1276686e1e|51d375ca29550939|822406772||t18886.388254459s|aecd716bd16b2e92|5088|rds|vector|||1.39||
+esc_v1_files|object|60c51f0d5568de8d||||||||||||||
+tidy_scores_raw|function|382b2e83054cdf04||||||||||||||
+.Random.seed|object|1b616b3061d0a883||||||||||||||
+suit_cols|object|47afbac06c7af95a||||||||||||||
+foo|object|dbbe57504a6c0584||||||||||||||
+val_cols|object|785c6bf0cada05a5||||||||||||||
+get_scores_raw|function|b02222028d9e045d||||||||||||||
+get_tidy_scores|function|97e3dc983f630b11||||||||||||||
+tidy_scores_v1|stem|3b4a5e6135e0adbf|ad806f1276686e1e|51d375ca29550939|1713714191||t18886.3886863812s|aecd716bd16b2e92|5088|rds|vector|||1.35||
