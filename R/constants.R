@@ -1,12 +1,13 @@
-val_and_score_cols <- c("AT val",
-                        "AT suit",
-                        "MD val",
-                        "MD suit",
-                        "Con val",
-                        "Con suit",
-                        "Dams val",
-                        "Dams suit",
-                        "SMR val",
-                        "SMR suit",
-                        "SNR val",
-                        "SNR suit")
+val_cols <- c("AT val",
+              "MD val",
+              "Con val",
+              "Dams val",
+              "SMR val",
+              "SNR val")
+
+suit_cols <- c("AT suit",
+               "MD suit",
+               "Con suit",
+               "Dams suit",
+               "SMR suit",
+               "SNR suit")

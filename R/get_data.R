@@ -15,10 +15,14 @@ get_scores_tidy <- function(path){
     for (sheet in sheets) {
       
       scores <- readxl::read_xls(path = scores_file, sheet = sheet, skip = 5) |>
-        dplyr::select(tidyselect::all_of(val_and_score_cols)) |> 
-        tidyr::pivot_longer(cols = tidyselect::everything()) |> 
-        dplyr::filter(!is.na(value)) |> 
-        dplyr::mutate(species = sheet, .before = name)
+        dplyr::select(tidyselect::all_of(c(val_cols, suit_cols))) |> 
+        tidyr::pivot_longer(cols = tidyselect::everything(), 
+                            names_to = c("factor", "metric"), 
+                            names_sep = " ",
+                            values_to = "value") |> 
+        dplyr::filter(!is.na(value)) |>
+        # tidyr::pivot_wider(names_from = "metric", value_from = "value") |>
+        dplyr::mutate(species = sheet, .before = factor)
       
       scores_df <- rbind(scores_df, scores)
       
@@ -31,3 +35,5 @@ get_scores_tidy <- function(path){
   return(scores_df_all)
 
 } # Close function
+
+foo <- get_scores_tidy(path = esc_v1_files)
