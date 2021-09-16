@@ -1,0 +1,5 @@
+name|type|data|command|depend|seed|path|time|size|bytes|format|iteration|parent|children|seconds|warnings|error
+esc_v1_files|object|60c51f0d5568de8d||||||||||||||
+val_and_score_cols|object|2ad306b9bd9c8235||||||||||||||
+get_scores_tidy|function|9cc499a942607a9a||||||||||||||
+raw_scores_v1|stem|d6d5f811110ee50e|095170364a17d5f6|7c564cd980e2f4d6|822406772||t18886.3161253397s|eeab8b98676e99df|9115|rds|vector|||2.05||
