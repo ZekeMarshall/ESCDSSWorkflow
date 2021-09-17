@@ -20,6 +20,57 @@ list(
     get_tidy_scores(path = esc_v1_files)
   ),
   
+  # A wide data frame containing version one of the Accumulated Temperature suitability scores
+  tar_target(
+    wide_scores_at,
+    get_wide_scores_df(tidy_scores_df = tidy_scores_v1,
+                       suit_factor = "at")
+    
+  ),
+  
+  # A wide data frame containing version one of the Continentality suitability scores
+  tar_target(
+    wide_scores_ct,
+    get_wide_scores_df(tidy_scores_df = tidy_scores_v1,
+                       suit_factor = "ct")
+    
+  ),
+  
+  # A wide data frame containing version one of the Moisture Deficit suitability scores
+  tar_target(
+    wide_scores_md,
+    get_wide_scores_df(tidy_scores_df = tidy_scores_v1,
+                       suit_factor = "md") |> 
+      dplyr::mutate("0"= NA, .after = factor)
+    
+  ),
+  
+  # A wide data frame containing version one of the Exposure suitability scores
+  tar_target(
+    wide_scores_dams,
+    get_wide_scores_df(tidy_scores_df = tidy_scores_v1,
+                       suit_factor = "dams")
+    
+  ),
+  
+  # A wide data frame containing version one of the Soil Moisture Regime suitability scores
+  tar_target(
+    wide_scores_smr,
+    get_wide_scores_df(tidy_scores_df = tidy_scores_v1,
+                       suit_factor = "smr")
+    
+  ),
+  
+  # A wide data frame containing version one of the Soil Nutrient Regime suitability scores
+  tar_target(
+    wide_scores_snr,
+    get_wide_scores_df(tidy_scores_df = tidy_scores_v1,
+                       suit_factor = "snr")|> 
+      dplyr::mutate("0.5"= NA, .after = `0`) |>
+      dplyr::mutate("1.5" = NA, .after = `1`)
+    
+  ),
+  
   # A data frame containing the latest ESC model data
   tar_target(
     esc_params_file,

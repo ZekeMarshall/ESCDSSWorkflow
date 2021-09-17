@@ -41,10 +41,10 @@ ESCmodel <- function(params, factor, min_val, max_val, step){
     
     for(value in values){ # turn this into a lapply statement, or purr::map_dfr
       
-      p1 <- params[1]
-      p2 <- params[2]
-      p3 <- params[3]
-      p4 <- params[4]
+      p1 <- params_spp[1]
+      p2 <- params_spp[2]
+      p3 <- params_spp[3]
+      p4 <- params_spp[4]
       
       modelled_score <- sum((p1*value^3), 
                             (p2*value^2), 

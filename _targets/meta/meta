@@ -2,32 +2,39 @@ name|type|data|command|depend|seed|path|time|size|bytes|format|iteration|parent|
 val_and_score_cols|object|2ad306b9bd9c8235||||||||||||||
 get_scores_tidy|function|9cc499a942607a9a||||||||||||||
 raw_scores_v1|stem|3b4a5e6135e0adbf|ad806f1276686e1e|51d375ca29550939|822406772||t18886.388254459s|aecd716bd16b2e92|5088|rds|vector|||1.39||
-tidy_scores_v1|stem|3b4a5e6135e0adbf|ad806f1276686e1e|51d375ca29550939|1713714191||t18886.3886863812s|aecd716bd16b2e92|5088|rds|vector|||1.35||
 evaluateESCVariable|function|0f63b1b770755fbd||||||||||||||
 loadSpecificParams|function|00a419f3dd80677c||||||||||||||
 calculateESC|function|bfa73245f2bfef97||||||||||||||
 esc_model_params|stem|6f9ba643a5f928e4|96a2af978b36984d|549ffaff432d7577|-2026096723||t18886.5745661025s|5bb8b0a4658ec7b7|14519|rds|vector|||0.03||
-esc_params_file|stem|6f9ba643a5f928e4|96a2af978b36984d|5e26395456392076|-200239056||t18886.5902466085s|5bb8b0a4658ec7b7|14519|rds|vector|||0.02||
-esc_params_tidy|stem|a29ec70291526e89|95aa33a2198ad187|8b30099de9beefcd|-1953268747||t18886.5914022003s|dae7b652ec83980d|12779|rds|vector|||0.02||
 atESCmodel|function|f3e51b058dc46fa9||||||||||||||
 atESCresults|stem|7f2ab00cd704755b|fb69033a09a59e64|d49bab89ebdbbbd2|-1163147489||t18886.6316356896s|980b4085f32affc4|449316|rds|vector|||291.85||
-esc_v1_files|object|60c51f0d5568de8d||||||||||||||
-tidy_scores_raw|function|382b2e83054cdf04||||||||||||||
-tidyESCParams|function|a8a1bc417d967a04||||||||||||||
 .Random.seed|object|9bf35d760360c9c2||||||||||||||
-suit_cols|object|47afbac06c7af95a||||||||||||||
 foo|object|dbbe57504a6c0584||||||||||||||
+esc_params_file|stem|6f9ba643a5f928e4|96a2af978b36984d|5e26395456392076|-200239056||t18886.8691103195s|5bb8b0a4658ec7b7|14519|rds|vector|||0.02||
+tidy_scores_v1|stem|8be2c091689411a9|ad806f1276686e1e|5ca08da5c7fe14f1|1713714191||t18886.8693216539s|50375e1192b058dd|5482|rds|vector|||18.19||
+esc_params_tidy|stem|a29ec70291526e89|95aa33a2198ad187|8b30099de9beefcd|-1953268747||t18886.8693221576s|dae7b652ec83980d|12779|rds|vector|||0||
+ESCresults_md|stem|d2c9458b7707099f|63b13e4955def453|f903d5bd76c9b1ee|855914039||t18886.8699563379s|45ca56b80096cca5|133937|rds|vector|||54.17||
+ESCresults_dams|stem|a349e2ef99dd280e|5e35147b56de4b92|f903d5bd76c9b1ee|232788912||t18886.8701628999s|71043890b4c8c901|43495|rds|vector|||17.78||
+ESCresults_snr|stem|e09de0fa361e1a26|020ef5f1c93d3339|f903d5bd76c9b1ee|-1410810332||t18886.8702217198s|10332e700d7995ff|13432|rds|vector|||5.04||
+ESCresults_ct|stem|e8af21008363ae4e|91afa883c13ec189|f903d5bd76c9b1ee|500821262||t18886.8703225531s|4f32bb8f9517fd0c|17872|rds|vector|||8.67||
+ESCresults_at|stem|d48a03641c549b87|9a58970d56683398|f903d5bd76c9b1ee|-345403582||t18886.8707988606s|1af9d9a92762c8c8|93542|rds|vector|||41.09||
+ESCresults_smr|stem|d927da50595303ee|c19d210c89d6515a|f903d5bd76c9b1ee|1203206467||t18886.8708946333s|b387ed5ea8984539|16206|rds|vector|||8.21||
+esc_v1_files|object|60c51f0d5568de8d||||||||||||||
+tidy_scores_raw|function|b99291a6202a2fe1||||||||||||||
+tidyESCParams|function|a8a1bc417d967a04||||||||||||||
+suit_cols|object|47afbac06c7af95a||||||||||||||
 escparameters|object|c31f84f47f2831bd||||||||||||||
 speciesparams|object|c31f84f47f2831bd||||||||||||||
 val_cols|object|785c6bf0cada05a5||||||||||||||
+get_wide_scores_df|function|ff3437c99d786979||||||||||||||
 esc_params_path|object|ec08e7debe5945af||||||||||||||
 loadESCParams|function|a0d450b3e8efe693||||||||||||||
-ESCmodel|function|e3fab304b1a98b49||||||||||||||
-get_scores_raw|function|b02222028d9e045d||||||||||||||
-get_tidy_scores|function|97e3dc983f630b11||||||||||||||
-ESCresults_md|stem|d2c9458b7707099f|63b13e4955def453|837d44bf4d193870|855914039||t18886.671027105s|45ca56b80096cca5|133937|rds|vector|||35.33||
-ESCresults_dams|stem|a349e2ef99dd280e|5e35147b56de4b92|837d44bf4d193870|232788912||t18886.671181862s|71043890b4c8c901|43495|rds|vector|||13.31||
-ESCresults_snr|stem|e09de0fa361e1a26|020ef5f1c93d3339|837d44bf4d193870|-1410810332||t18886.6712318293s|10332e700d7995ff|13432|rds|vector|||4.28||
-ESCresults_ct|stem|e8af21008363ae4e|91afa883c13ec189|837d44bf4d193870|500821262||t18886.6713190627s|4f32bb8f9517fd0c|17872|rds|vector|||7.5||
-ESCresults_at|stem|d48a03641c549b87|9a58970d56683398|837d44bf4d193870|-345403582||t18886.6717063659s|1af9d9a92762c8c8|93542|rds|vector|||33.42||
-ESCresults_smr|stem|d927da50595303ee|c19d210c89d6515a|837d44bf4d193870|1203206467||t18886.6717745145s|b387ed5ea8984539|16206|rds|vector|||5.84||
+ESCmodel|function|0108791041ca8326||||||||||||||
+get_scores_raw|function|a089084c3e5ee5fb||||||||||||||
+get_tidy_scores|function|2b294855377fb59b||||||||||||||
+wide_scores_snr|stem|ba6d22bcb44a741b|0a8b5ba3b5d478c5|917deb91e4d1b508|-93677682||t18887.3030164352s|434aa9f1d56b5df4|1414|rds|vector|||0.19|Values are not uniquely identified output will contain listcols. Use values_fn  list to suppress this warning. Use values_fn  length to identify where the duplicates arise Use values_fn  summary_fun to summarise duplicates|
+wide_scores_dams|stem|fee06113482eb787|ca0b1b7cb086c914|27b4aa103639674f|49965189||t18887.3030168287s|32e1b7d9a81b8c3b|1464|rds|vector|||0|Values are not uniquely identified output will contain listcols. Use values_fn  list to suppress this warning. Use values_fn  length to identify where the duplicates arise Use values_fn  summary_fun to summarise duplicates|
+wide_scores_smr|stem|67b6cb0922ed2fa2|54a82789d6a190f3|27b4aa103639674f|1524750179||t18887.3030172107s|e77ef1b80eaed206|1518|rds|vector|||0|Values are not uniquely identified output will contain listcols. Use values_fn  list to suppress this warning. Use values_fn  length to identify where the duplicates arise Use values_fn  summary_fun to summarise duplicates|
+wide_scores_md|stem|5f762b7d149dc8a6|4c3d843eb009a056|8781ba0dced3e7a2|-1522699347||t18887.3030176042s|c3cde3043973991a|1810|rds|vector|||0.02|Values are not uniquely identified output will contain listcols. Use values_fn  list to suppress this warning. Use values_fn  length to identify where the duplicates arise Use values_fn  summary_fun to summarise duplicates|
+wide_scores_at|stem|b7bba9ee12bdb7ab|df211fe41025bb74|27b4aa103639674f|-1218171294||t18887.3030180086s|26529fc1fa10ca1a|1657|rds|vector|||0.02|Values are not uniquely identified output will contain listcols. Use values_fn  list to suppress this warning. Use values_fn  length to identify where the duplicates arise Use values_fn  summary_fun to summarise duplicates|
+wide_scores_ct|stem|4b4b882beb5ca7ba|a0a2e8f2007082e9|27b4aa103639674f|792796178||t18887.3030184369s|6c1f609475d45dbf|1723|rds|vector|||0.02|Values are not uniquely identified output will contain listcols. Use values_fn  list to suppress this warning. Use values_fn  length to identify where the duplicates arise Use values_fn  summary_fun to summarise duplicates|

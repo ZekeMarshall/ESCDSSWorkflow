@@ -14,7 +14,7 @@ get_scores_raw <- function(path){
     
     for (sheet in sheets) {
       
-      scores <- readxl::read_xls(path = scores_file, sheet = sheet, skip = 5) |>
+      scores <- readxl::read_xlsx(path = scores_file, sheet = sheet) |>
         dplyr::select(tidyselect::all_of(c(val_cols, suit_cols))) |> 
         dplyr::mutate(species = sheet)
       
@@ -77,7 +77,8 @@ tidy_scores_raw <- function(.raw_scores){
   
   
   scores_tidy <- rbind(at,ct,md,dams,smr,snr) |> 
-    dplyr::relocate(species, .before = factor)
+    dplyr::relocate(species, .before = factor) |> 
+    dplyr::filter(species != "master")
   
   return(scores_tidy)
   
@@ -92,4 +93,13 @@ get_tidy_scores <- function(path){
   
 }
 
-foo <- get_tidy_scores(path = esc_v1_files)
+get_wide_scores_df <- function(tidy_scores_df, suit_factor){
+  
+  wide_scores_df <- tidy_scores_df |> 
+    dplyr::filter(factor == suit_factor) |>
+    tidyr::pivot_wider(names_from = value, values_from = score) |> 
+    dplyr::arrange(species)
+  
+  return(wide_scores_df)
+  
+}
