@@ -98,8 +98,10 @@ get_wide_scores_df <- function(tidy_scores_df, suit_factor){
   wide_scores_df <- tidy_scores_df |> 
     dplyr::filter(factor == suit_factor) |>
     tidyr::pivot_wider(names_from = value, values_from = score) |> 
+    dplyr::add_row(species = ESC_spp_add, factor = suit_factor) |> 
     dplyr::arrange(species)
   
   return(wide_scores_df)
   
 }
+

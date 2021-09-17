@@ -1,0 +1,87 @@
+"","species","factor","0","1","2","3","4","5","6","7","8"
+"1","Abies alba","smr",NA,NA,NA,0.6,1,1,0.6,NA,NA
+"2","Abies amabilis","smr",0,0,0,0.55,0.9,1.2,0.4,NA,NA
+"3","Abies grandis","smr",NA,NA,NA,0.6,1,1,0.4,NA,NA
+"4","Abies nordmanniana","smr",NA,NA,NA,0.65,1,1,0.7,0,NA
+"5","Abies procera","smr",0,0,0.3,0.6,1,1,0.3,NA,NA
+"6","Acer campestre","smr",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"7","Acer macrophyllum","smr",NA,NA,NA,0.65,1,1,0.65,0,NA
+"8","Acer platanoides","smr",NA,NA,NA,0.65,1,1,1,0.6,NA
+"9","Acer pseudoplatanus","smr",NA,NA,NA,0.6,1,1,0.7,0.4,0
+"10","Alnus cordata","smr",NA,NA,0.65,0.95,1.1,1.1,1,0.6,NA
+"11","Alnus glutinosa","smr",0.5,0.7,1,1,1,0.6,NA,NA,NA
+"12","Alnus incana","smr",0.2,0.5,0.85,1.2,1.1,1,0.75,NA,NA
+"13","Alnus rubra","smr",0.3,0.5,0.85,1.1,1.1,1.05,0.75,0,NA
+"14","Arbutus unedo","smr",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"15","Betula pendula","smr",NA,NA,0,0.55,0.8,1,1,0.7,0.4
+"16","Betula pubescens","smr",0.3,0.6,0.9,1,1,0.7,0,NA,NA
+"17","Buxus sempervirens","smr",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"18","Carpinus betulus","smr",NA,NA,0.5,0.74,1,1.1,1,0.65,0
+"19","Castanea sativa","smr",NA,NA,NA,0.1,0.6,1,1,0.6,0
+"20","Chamaecyparis lawsoniana","smr",NA,NA,0.6,1,1.1,1,0.6,NA,NA
+"21","Cornus sanguinea","smr",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"22","Corylus avellana","smr",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"23","Crataegus laevigata","smr",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"24","Crataegus monogyna","smr",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"25","Cryptomeria japonica","smr",NA,NA,NA,0.65,1.1,1.1,0.65,NA,NA
+"26","Cupressocyparis x leyandii","smr",NA,NA,NA,0.6,1,1.2,1,0.5,NA
+"27","Eucalyptus gunnii","smr",NA,NA,0.6,0.9,1.1,1,0.7,NA,NA
+"28","Euclayptus nitens","smr",NA,NA,0,0.6,1,1.1,0.6,NA,NA
+"29","Euonymus europaeus","smr",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"30","Fagus sylvatica","smr",NA,NA,NA,0.3,0.7,0.9,1.1,0.6,0
+"31","Frangula alnus","smr",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"32","Fraxinus excelsior","smr",NA,NA,0.3,0.6,1,1,0.6,0,NA
+"33","Hippophae rhamnoides","smr",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"34","Ilex aquifolium","smr",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"35","Juglans nigra","smr",NA,NA,NA,NA,0.65,1.2,0.65,NA,NA
+"36","Juglans regia","smr",NA,NA,NA,NA,0.65,1,1,0.5,NA
+"37","Juniperus communis","smr",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"38","Larix decidua","smr",0,0,0.1,0.3,0.6,1.1,1.1,0.4,NA
+"39","Larix eurolepsis","smr",NA,0,0.2,0.5,0.9,1,1,0.7,0.1
+"40","Larix kaempferi","smr",0,0.1,0.3,0.5,0.85,1.1,0.74,0.3,NA
+"41","Ligustrum vulgare","smr",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"42","Malus sylvestris","smr",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"43","Master","smr",0,NA,NA,NA,NA,NA,NA,NA,1
+"44","Nothofagus obliqua","smr",NA,NA,0,0.5,0.8,1.1,1.1,0.6,NA
+"45","Nothofagus procera","smr",NA,NA,NA,NA,0.65,1,0.65,NA,NA
+"46","Picea abies","smr",NA,0,0.3,0.75,1,1,0.75,0.5,0
+"47","Picea omorika","smr",NA,NA,0.5,0.75,1,1,0.7,0.3,NA
+"48","Picea orientalis","smr",NA,NA,NA,0.6,1,1.1,1,0.6,NA
+"49","Picea sitchensis","smr",0,0.2,0.5,0.75,1,0.9,0.75,0.5,0.2
+"50","Pinus contorta","smr",0.3,0.5,0.75,1,1.1,1.1,1.1,1,0.75
+"51","Pinus nigra ssp. Laricio","smr",0,NA,0,0.3,0.6,1,1,0.8,0.5
+"52","Pinus peuce","smr",0,0.2,0.5,0.75,1.1,1.1,0.8,0.5,0
+"53","Pinus pinaster","smr",0,0,0,0.3,0.6,1.2,1.1,0.7,0.5
+"54","Pinus radiata","smr",NA,NA,0.3,0.5,0.9,1,1,0.75,0.3
+"55","Pinus strobus","smr",NA,NA,NA,NA,0.5,1.2,1.1,0.5,0
+"56","Pinus sylvestris","smr",0,0.1,0.3,0.5,0.75,1,1,1,0.75
+"57","Populus nigra","smr",0.3,0.6,1,1.1,1,0.6,NA,NA,NA
+"58","Populus nigra subsp. betulifolia","smr",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"59","Populus tremula","smr",NA,0,0.7,1,1,1,0.7,NA,NA
+"60","Prunus avium","smr",NA,NA,NA,0.7,1,1,0.6,NA,NA
+"61","Prunus padus","smr",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"62","Prunus spinosa","smr",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"63","Pseudotsuga menziesii","smr",NA,NA,NA,NA,0.5,1,1,0.7,0
+"64","Quercus petraea","smr",NA,NA,NA,0.3,0.6,1,1,0.6,0
+"65","Quercus robur","smr",NA,0,0.5,0.9,1.1,1,0.65,0.3,NA
+"66","Quercus rubra","smr",NA,NA,NA,0.6,1,1,0.73,0.5,0.2
+"67","Rhamnus cathartica","smr",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"68","Salix caprea","smr",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"69","Salix cinerea","smr",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"70","Salix pentandra","smr",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"71","Salix phylicifolia","smr",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"72","Sequoia sempervirens A1","smr",NA,0,0.3,0.7,1.1,1,0.6,0.3,0
+"73","Sequoia sempervirens C","smr",NA,NA,NA,0.65,1,1,0.65,NA,NA
+"74","Sequoiadendron giganteum","smr",NA,NA,NA,NA,0.74,1.1,1,0.5,NA
+"75","Sorbus aria","smr",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"76","Sorbus aucuparia","smr",NA,NA,NA,0.6,0.95,1.1,1,0.6,NA
+"77","Sorbus domestica","smr",NA,NA,NA,NA,0.65,1,1,0.7,0.5
+"78","Sorbus torminalis","smr",0,NA,NA,0.3,0.65,1.1,1.1,0.65,NA
+"79","Taxus baccata","smr",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"80","Thuja plicata","smr",0,0.4,0.7,1,1.1,1.1,0.6,0,NA
+"81","Tilia cordata","smr",NA,NA,NA,0.6,1,1,0.7,NA,NA
+"82","Tilia platyphyllos","smr",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"83","Tilia x europaea","smr",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"84","Tsuga heterophyla","smr",NA,0,0.2,0.6,1,1.2,1,0.6,0
+"85","Ulmus glabra","smr",NA,NA,0,0.6,1,1,0.6,0,NA
+"86","Ulmus minor","smr",NA,NA,NA,NA,NA,NA,NA,NA,NA

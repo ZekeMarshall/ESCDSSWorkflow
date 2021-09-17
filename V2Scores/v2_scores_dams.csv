@@ -1,0 +1,87 @@
+"","species","factor","2","4","6","8","10","12","14","16","18","20","22","24"
+"1","Abies alba","dams",1,1,1,1,1,1,0.8,0.6,0.4,NA,NA,NA
+"2","Abies amabilis","dams",1,1,1,1,1,0.9,0.7,0.6,0.5,0.3,NA,NA
+"3","Abies grandis","dams",1,1,1,1,0.95,0.8,0.75,0.5,NA,NA,NA,NA
+"4","Abies nordmanniana","dams",1,1,1,1,1,1,0.9,0.7,NA,NA,NA,NA
+"5","Abies procera","dams",1,1,1,1,1,1,1,0.8,0.6,0.3,NA,NA
+"6","Acer campestre","dams",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"7","Acer macrophyllum","dams",1,1,1,1,1,0.9,0.7,NA,NA,NA,NA,NA
+"8","Acer platanoides","dams",1,1,1,1,1,1,0.7,0.5,NA,NA,NA,NA
+"9","Acer pseudoplatanus","dams",1,1,1.1,1.1,1.1,1,0.75,0.6,0.5,NA,NA,NA
+"10","Alnus cordata","dams",1.1,1.1,1.1,1.1,1.05,1,0.75,0.5,NA,NA,NA,NA
+"11","Alnus glutinosa","dams",1,1,1,1,1,1,0.9,0.7,0.5,NA,NA,NA
+"12","Alnus incana","dams",1.1,1.2,1.3,1.2,1.1,1,1,0.9,0.8,0.7,0.5,NA
+"13","Alnus rubra","dams",1,1,1,1,1,1,1,0.75,NA,NA,NA,NA
+"14","Arbutus unedo","dams",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"15","Betula pendula","dams",1,1,1,1,1,0.9,0.7,0.5,0.3,0.1,NA,NA
+"16","Betula pubescens","dams",1,1,1,1,1,1,1,0.8,0.6,0.3,0,NA
+"17","Buxus sempervirens","dams",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"18","Carpinus betulus","dams",1,1,1,1,1,1,0.7,0.5,NA,NA,NA,NA
+"19","Castanea sativa","dams",1,1,1,1,1,1,0.8,0.7,0.5,0,NA,NA
+"20","Chamaecyparis lawsoniana","dams",1,1,1,1,1,0.85,0.7,NA,NA,NA,NA,NA
+"21","Cornus sanguinea","dams",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"22","Corylus avellana","dams",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"23","Crataegus laevigata","dams",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"24","Crataegus monogyna","dams",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"25","Cryptomeria japonica","dams",1,1.1,1.1,1,0.9,0.75,0.6,NA,NA,NA,NA,0
+"26","Cupressocyparis x leyandii","dams",1,1,1,1,1,0.9,NA,0.5,NA,NA,NA,NA
+"27","Eucalyptus gunnii","dams",1.1,1.1,1.1,1.1,1.1,1,0.9,0.65,NA,NA,NA,NA
+"28","Euclayptus nitens","dams",1.1,1.1,1.1,1.1,1.1,1,0.85,0.7,0.5,NA,NA,NA
+"29","Euonymus europaeus","dams",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"30","Fagus sylvatica","dams",1,1,1,1,1,1,0.8,0.6,0.4,0,NA,NA
+"31","Frangula alnus","dams",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"32","Fraxinus excelsior","dams",1,1.1,1.1,1.1,1.1,1,0.7,0.5,0,NA,NA,NA
+"33","Hippophae rhamnoides","dams",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"34","Ilex aquifolium","dams",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"35","Juglans nigra","dams",1.1,1.1,1.1,1.1,1,0.9,0.8,0.7,0.5,NA,NA,NA
+"36","Juglans regia","dams",1,1,1,1,0.9,NA,NA,0.5,NA,NA,NA,NA
+"37","Juniperus communis","dams",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"38","Larix decidua","dams",1,1,1,1,1,0.9,0.75,0.6,0.4,0.2,0,NA
+"39","Larix eurolepsis","dams",1,1,1,1,1,1,0.8,0.6,0.3,0,NA,NA
+"40","Larix kaempferi","dams",1,1,1,1,1,0.9,0.75,0.6,0.5,NA,NA,NA
+"41","Ligustrum vulgare","dams",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"42","Malus sylvestris","dams",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"43","Master","dams",1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"44","Nothofagus obliqua","dams",1.1,1.1,1.1,1.1,1.1,1,0.85,0.6,NA,NA,NA,NA
+"45","Nothofagus procera","dams",1,1,1,1,1,1,0.7,0.5,NA,NA,NA,NA
+"46","Picea abies","dams",1,1.1,1.2,1.1,1,0.75,0.5,0.3,0.2,0.1,0,0
+"47","Picea omorika","dams",1,1,1,1,0.95,0.85,0.7,0.6,NA,NA,NA,NA
+"48","Picea orientalis","dams",1,1,1,1,1,0.9,0.7,0.5,NA,NA,NA,NA
+"49","Picea sitchensis","dams",1,1,1,1,1,1,0.9,0.75,0.6,0.5,0.4,0.3
+"50","Pinus contorta","dams",1,1,1,1,1,1,0.95,0.8,0.7,0.45,0,NA
+"51","Pinus nigra ssp. Laricio","dams",1,1,1,1,1,1,0.9,0.75,0.5,0.2,0,NA
+"52","Pinus peuce","dams",1,1,1,1,1,1,1,0.8,0.6,0.35,0,NA
+"53","Pinus pinaster","dams",1,1,1,1,1,1,0.75,0.5,NA,NA,NA,NA
+"54","Pinus radiata","dams",1,1,1.1,1.2,1.1,1.05,1,0.75,0.5,NA,NA,NA
+"55","Pinus strobus","dams",1.1,1.2,1.3,1.2,1.1,1,0.75,0.5,0.3,0.2,0.1,NA
+"56","Pinus sylvestris","dams",1.2,1.2,1.2,1.1,1.1,1,0.8,0.7,0.6,0.4,0.2,0
+"57","Populus nigra","dams",1,1,1,1,1,1,0.8,0.6,0.5,NA,NA,NA
+"58","Populus nigra subsp. betulifolia","dams",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"59","Populus tremula","dams",1,1,1,1,1,1,0.8,0.6,0.5,NA,NA,NA
+"60","Prunus avium","dams",1,1,1,1,1,1,0.75,0.5,NA,NA,NA,NA
+"61","Prunus padus","dams",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"62","Prunus spinosa","dams",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"63","Pseudotsuga menziesii","dams",1,1,1,1,1,0.75,0.55,0.3,0,NA,NA,NA
+"64","Quercus petraea","dams",1,1,1,1,1,1,0.75,0.5,0,NA,NA,NA
+"65","Quercus robur","dams",1,1,1,1,1,1,0.8,0.6,0.3,0,NA,NA
+"66","Quercus rubra","dams",1,1,1,1,1,0.9,0.75,0.6,0.4,NA,NA,NA
+"67","Rhamnus cathartica","dams",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"68","Salix caprea","dams",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"69","Salix cinerea","dams",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"70","Salix pentandra","dams",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"71","Salix phylicifolia","dams",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"72","Sequoia sempervirens A1","dams",1,1,1,1,0.8,0.6,0.4,0,NA,NA,NA,NA
+"73","Sequoia sempervirens C","dams",1.1,1.1,1.1,1.1,1,0.9,0.8,0.7,0.5,NA,NA,0
+"74","Sequoiadendron giganteum","dams",1,1,1,1,1,0.9,0.75,0.6,0.5,NA,NA,NA
+"75","Sorbus aria","dams",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"76","Sorbus aucuparia","dams",1.1,1.1,1.1,1.1,1.1,1.1,1.1,0.95,0.8,0.65,0.5,NA
+"77","Sorbus domestica","dams",1,1,1,1,1,0.85,0.7,NA,NA,NA,NA,NA
+"78","Sorbus torminalis","dams",1.1,1.1,1.1,1.1,1,0.9,0.8,0.7,0.6,NA,0.3,NA
+"79","Taxus baccata","dams",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"80","Thuja plicata","dams",1,1,1,1,1,0.8,0.6,0.5,0.3,0,NA,NA
+"81","Tilia cordata","dams",1,1,1,1,1,1,0.8,0.6,0.4,NA,NA,NA
+"82","Tilia platyphyllos","dams",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"83","Tilia x europaea","dams",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"84","Tsuga heterophyla","dams",1,1,1,1,0.9,0.7,0.6,0.5,0.3,0,NA,NA
+"85","Ulmus glabra","dams",1,1,1,1,0.9,0.75,0.6,0.5,NA,NA,NA,NA
+"86","Ulmus minor","dams",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA

@@ -1,0 +1,15 @@
+at <- tar_read("wide_scores_at")
+md <- tar_read("wide_scores_md")
+ct <- tar_read("wide_scores_ct")
+dams <- tar_read("wide_scores_dams")
+snr <- tar_read("wide_scores_snr")
+smr <- tar_read("wide_scores_smr")
+
+wd <- getwd()
+
+write.csv(x = at, file = file.path(wd, "V2Scores/v2_scores_at.csv"))
+write.csv(x = md, file = file.path(wd, "V2Scores/v2_scores_md.csv"))
+write.csv(x = ct, file = file.path(wd, "V2Scores/v2_scores_ct.csv"))
+write.csv(x = dams, file = file.path(wd, "V2Scores/v2_scores_dams.csv"))
+write.csv(x = snr, file = file.path(wd, "V2Scores/v2_scores_snr.csv"))
+write.csv(x = smr, file = file.path(wd, "V2Scores/v2_scores_smr.csv"))

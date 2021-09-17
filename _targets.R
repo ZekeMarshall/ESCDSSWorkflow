@@ -40,8 +40,7 @@ list(
   tar_target(
     wide_scores_md,
     get_wide_scores_df(tidy_scores_df = tidy_scores_v1,
-                       suit_factor = "md") |> 
-      dplyr::mutate("0"= NA, .after = factor)
+                       suit_factor = "md")
     
   ),
   
@@ -65,9 +64,7 @@ list(
   tar_target(
     wide_scores_snr,
     get_wide_scores_df(tidy_scores_df = tidy_scores_v1,
-                       suit_factor = "snr")|> 
-      dplyr::mutate("0.5"= NA, .after = `0`) |>
-      dplyr::mutate("1.5" = NA, .after = `1`)
+                       suit_factor = "snr")
     
   ),
   
