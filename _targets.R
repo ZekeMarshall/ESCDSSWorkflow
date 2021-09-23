@@ -6,6 +6,7 @@ source("R/filepaths.R")
 source("R/constants.R")
 source("R/get_data.R")
 source("R/esc_model_functions.R")
+source("R/load_new_scores.R")
 
 # Set options
 options(tidyverse.quiet = TRUE)
@@ -138,6 +139,12 @@ list(
              min_val = 0,
              max_val = 6,
              step = 0.1)
+  ),
+  
+  # A data frame containing the new scores for all desired species
+  tar_target(
+    new_scores_complete,
+    load_new_scores(path = new_scores)
   )
   
 )

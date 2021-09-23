@@ -2,6 +2,6 @@ main_path <- "C:/Users/earzm/OneDrive - University of Leeds/Silviculture/ESC-DSS
 
 original_functions <- file.path(main_path, "Original Functions")
 
-new_scores_out <- file.path(main_path, "New Scores")
+new_scores <- file.path(main_path, "New Scores")
 
 latest_model <- file.path(main_path, "Latest Model/esccoeffs3_5.csv")
