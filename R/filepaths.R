@@ -1,3 +1,7 @@
-esc_v1_files <- "C:/Users/earzm/OneDrive - University of Leeds/Silviculture/ESC-DSS/V1 Functions"
+main_path <- "C:/Users/earzm/OneDrive - University of Leeds/Silviculture/ESC-DSS/ESCDSSWorkflow"
 
-esc_params_path <- "C:/Users/earzm/OneDrive - University of Leeds/Silviculture/ESC-DSS/Latest Model/esccoeffs3_5.csv"
+original_functions <- file.path(main_path, "Original Functions")
+
+new_scores_out <- file.path(main_path, "New Scores")
+
+latest_model <- file.path(main_path, "Latest Model/esccoeffs3_5.csv")

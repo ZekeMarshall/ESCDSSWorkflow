@@ -5,11 +5,27 @@ dams <- tar_read("wide_scores_dams")
 snr <- tar_read("wide_scores_snr")
 smr <- tar_read("wide_scores_smr")
 
-wd <- getwd()
+write.csv(x = at, 
+          file = file.path(x = new_scores_out, file = "new_scores_at.csv"),
+          row.names = FALSE)
 
-write.csv(x = at, file = file.path(wd, "V2Scores/v2_scores_at.csv"))
-write.csv(x = md, file = file.path(wd, "V2Scores/v2_scores_md.csv"))
-write.csv(x = ct, file = file.path(wd, "V2Scores/v2_scores_ct.csv"))
-write.csv(x = dams, file = file.path(wd, "V2Scores/v2_scores_dams.csv"))
-write.csv(x = snr, file = file.path(wd, "V2Scores/v2_scores_snr.csv"))
-write.csv(x = smr, file = file.path(wd, "V2Scores/v2_scores_smr.csv"))
+write.csv(x = md, 
+          file = file.path(x = new_scores_out, file = "new_scores_md.csv"),
+          row.names = FALSE)
+
+write.csv(x = ct, 
+          file = file.path(x = new_scores_out, file = "new_scores_ct.csv"),
+          row.names = FALSE)
+
+write.csv(x = dams, 
+          file = file.path(x = new_scores_out, file = "new_scores_dams.csv"),
+          row.names = FALSE)
+
+write.csv(x = snr, 
+          file = file.path(x = new_scores_out, file = "new_scores_snr.csv"),
+          row.names = FALSE)
+
+write.csv(x = smr, 
+          file = file.path(x = new_scores_out, file = "new_scores_smr.csv"),
+          row.names = FALSE)
+

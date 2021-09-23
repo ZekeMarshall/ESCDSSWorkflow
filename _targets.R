@@ -17,7 +17,7 @@ list(
   # A tidy data frame containing version one of the raw ESC-DSS suitability factor scores
   tar_target(
     tidy_scores_v1,
-    get_tidy_scores(path = esc_v1_files)
+    get_tidy_scores(path = original_functions)
   ),
   
   # A wide data frame containing version one of the Accumulated Temperature suitability scores
@@ -71,7 +71,7 @@ list(
   # A data frame containing the latest ESC model data
   tar_target(
     esc_params_file,
-    loadESCParams(path = esc_params_path)
+    loadESCParams(path = latest_model)
   ),
   
   # A data frame containing trimmed ESC model data
