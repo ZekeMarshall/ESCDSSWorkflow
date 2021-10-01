@@ -8,6 +8,7 @@ source("R/get_data.R")
 source("R/esc_model_functions.R")
 source("R/load_new_scores.R")
 source("R/get_new_models.R")
+source("R/get_new_model_equations.R")
 
 # Set options
 options(tidyverse.quiet = TRUE)
@@ -142,16 +143,22 @@ list(
              step = 0.1)
   ),
   
-  # A data frame containing the new scores for all desired species
+  # A data frame containing the new scores for all desired species and suitability factors
   tar_target(
     new_scores_complete,
     load_new_scores(path = new_scores)
   ),
   
-  # A data frame containing the new scores for all desired species
+  # A data frame containing the new models for all desired species and suitability factors
   tar_target(
     new_models,
     get_new_models(models_path = models_path)
+  ),
+  
+  # A data frame containing the aforementioned model equations
+  tar_target(
+    new_model_equations,
+    get_model_equations(models_df = new_models)
   )
   
 )
